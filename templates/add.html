@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Book List</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class = "jumbotron">
+        <h1>Add Book</h1>
+    </div>
+    <div class = "container">
+        <form action = "/addBook" method = "post">
+            <div class="form-group">
+                <label >Title</label>
+                <input type="text" name = "title" class="form-control" placeholder="Enter Book's Title">
+            </div>
+            <div class="form-group">
+                <label >Author</label>
+                <input type="text" name = "author" class="form-control" placeholder="Enter Book's Author">
+            </div>
+            <div class="form-group">
+                <label >Description</label>
+                <input type="text" name = "description" class="form-control" placeholder="Enter Book's Description">
+            </div>
+                
+            <button type="submit" class="btn btn-primary" >Add Book</button>
+            <a href="/" class="btn btn-dark">Go Back</a>
+        </form>
+    </div>
+</body>
+</html>

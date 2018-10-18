@@ -1,0 +1,5 @@
+*.pyc
+venv/
+git init
+git add --all
+git commit -m "initial commit"
